@@ -1,0 +1,167 @@
+{
+  "@context": {
+    "@vocab": "https://aalang.org/spec",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ex": "https://aalang.dev/python-tutor/example/",
+    "cse110": "https://byui-cse.github.io/cse110-course/"
+  },
+  "@graph": [
+    {
+      "@id": "cse110:AssignmentDatabase",
+      "@type": "AssignmentDatabase",
+      "course": "BYU-Idaho CSE 110",
+      "courseCode": "CSE 110",
+      "institution": "Brigham Young University-Idaho",
+      "purpose": "Database of CSE 110 assignments to support assignment restriction policy. Used to identify when student requests map entirely to course assignments.",
+      "assignments": [
+        "cse110:Prove01",
+        "cse110:Prove02",
+        "cse110:Prove03",
+        "cse110:Prove04",
+        "cse110:Prove05",
+        "cse110:Prove06"
+      ]
+    },
+    {
+      "@id": "cse110:Prove01",
+      "@type": "Assignment",
+      "assignmentNumber": "Prove01",
+      "name": "Demonstrate Input and Output",
+      "description": "This assignment focuses on demonstrating basic input and output operations in Python. Students are expected to write programs that take user input and display appropriate output. The assignment emphasizes fundamental I/O concepts including using input() and print() functions, formatting output, and handling user interactions.",
+      "keyConcepts": [
+        "input() function",
+        "print() function",
+        "formatted strings",
+        "user interaction",
+        "basic output formatting"
+      ],
+      "typicalFeatures": [
+        "Programs that prompt user for input",
+        "Programs that display formatted output",
+        "Simple interactive programs",
+        "Basic string formatting for output"
+      ],
+      "url": "https://video.byui.edu/media/t/1_2pi3zjma",
+      "course": "CSE 110"
+    },
+    {
+      "@id": "cse110:Prove02",
+      "@type": "Assignment",
+      "assignmentNumber": "Prove02",
+      "name": "Variables and Expressions",
+      "description": "This assignment focuses on using variables and expressions in Python. Students work with different data types, perform calculations, and manipulate data using expressions. The assignment emphasizes understanding variable assignment, data types, and basic arithmetic operations.",
+      "keyConcepts": [
+        "variables",
+        "data types",
+        "expressions",
+        "arithmetic operations",
+        "type casting"
+      ],
+      "typicalFeatures": [
+        "Programs that declare and use variables",
+        "Programs that perform calculations",
+        "Programs that manipulate different data types",
+        "Type conversion operations"
+      ],
+      "course": "CSE 110"
+    },
+    {
+      "@id": "cse110:Prove03",
+      "@type": "Assignment",
+      "assignmentNumber": "Prove03",
+      "name": "Decisions and Conditionals",
+      "description": "This assignment focuses on implementing decision-making in programs using conditional statements (if, elif, else). Students create programs that make choices based on conditions and handle different scenarios. The assignment emphasizes logical thinking and conditional logic.",
+      "keyConcepts": [
+        "if statements",
+        "elif statements",
+        "else statements",
+        "conditional logic",
+        "boolean expressions",
+        "comparison operators"
+      ],
+      "typicalFeatures": [
+        "Programs with conditional branching",
+        "Programs that make decisions based on input",
+        "Programs with multiple condition checks",
+        "Programs that handle different scenarios"
+      ],
+      "course": "CSE 110"
+    },
+    {
+      "@id": "cse110:Prove04",
+      "@type": "Assignment",
+      "assignmentNumber": "Prove04",
+      "name": "Word Puzzle App",
+      "description": "In this assignment, students develop a word puzzle application. The task involves creating a program that allows users to solve word puzzles, emphasizing string manipulation and control structures. The assignment typically includes features like displaying puzzles, accepting user guesses, and providing feedback.",
+      "keyConcepts": [
+        "string manipulation",
+        "loops",
+        "conditionals",
+        "user interaction",
+        "string methods",
+        "control structures"
+      ],
+      "typicalFeatures": [
+        "Word puzzle game mechanics",
+        "String manipulation operations",
+        "User input validation",
+        "Game loop structure",
+        "Feedback and scoring systems"
+      ],
+      "url": "https://video.byui.edu/media/t/1_4epi8wjj",
+      "course": "CSE 110"
+    },
+    {
+      "@id": "cse110:Prove05",
+      "@type": "Assignment",
+      "assignmentNumber": "Prove05",
+      "name": "Shopping Cart App",
+      "description": "Students are tasked with creating a shopping cart application. This involves implementing features that allow users to add items to a cart, remove items, view the cart contents, and calculate the total cost. The assignment focuses on data structures like lists and dictionaries, as well as interactive menu systems.",
+      "keyConcepts": [
+        "lists",
+        "dictionaries",
+        "loops",
+        "conditionals",
+        "menu systems",
+        "data structures",
+        "interactive applications"
+      ],
+      "typicalFeatures": [
+        "Shopping cart functionality (add, remove, view items)",
+        "Menu-driven interface",
+        "Item storage using lists or dictionaries",
+        "Price calculation and totals",
+        "Cart management operations"
+      ],
+      "url": "https://video.byui.edu/media/t/1_lghr0hog",
+      "course": "CSE 110"
+    },
+    {
+      "@id": "cse110:Prove06",
+      "@type": "Assignment",
+      "assignmentNumber": "Prove06",
+      "name": "Data Analysis App",
+      "description": "This assignment requires students to build a data analysis application. The program should be capable of reading data from files, performing analysis, and presenting results. The assignment highlights file I/O operations, data processing, and presenting meaningful insights from data.",
+      "keyConcepts": [
+        "file I/O",
+        "reading from files",
+        "data processing",
+        "lists",
+        "loops",
+        "data analysis",
+        "formatted output"
+      ],
+      "typicalFeatures": [
+        "Reading data from text files",
+        "Processing and analyzing data",
+        "Calculating statistics or summaries",
+        "Displaying analysis results",
+        "File handling operations"
+      ],
+      "url": "https://video.byui.edu/media/t/1_uc8ey0ut",
+      "course": "CSE 110"
+    }
+  ]
+}
+

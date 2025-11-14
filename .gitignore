@@ -90,7 +90,8 @@ htmlcov/
 .tox/
 .hypothesis/
 
-# JSON-LD files (ignore all except python-beginner-tutor.jsonld)
+# JSON-LD files (ignore all except python-beginner-tutor.jsonld and cse110-assignments.jsonld)
 *.jsonld
 !python-beginner-tutor.jsonld
+!cse110-assignments.jsonld
 
